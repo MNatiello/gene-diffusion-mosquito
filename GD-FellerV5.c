@@ -1,8 +1,8 @@
 /*
  * Compile: Use Makefile
- * Version 4.02 changes pairing efficiency for most/all males. Changes in GetMate only
+ * Version 5 changes pairing efficiency for most/all males. Changes in GetMate only
  */
-#include "Oxi-FellerV5.h"
+#include "GD-FellerV5.h"
 
 double ML(double pfcf){
   double x,val;
