@@ -33,8 +33,5 @@ This programme has only a command-line interface for linux
    run with
    > torun.sh
 3. Input variables are described in the code
-4. The programme implements a Feller-Kendall algorithm adapted to the goals of
-   Modelling population dynamics based on experimental trials with genetically modified (RIDL) mosquitoes
-   by Mario A. Natiello and Hernán G. Solari
-   submitted to Ecological Modeling
+
    date: January 26, 2020
