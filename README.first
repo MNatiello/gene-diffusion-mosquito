@@ -1,8 +1,8 @@
-This repository host the code used in determining the genetic diffusion
+This repository hosts the code used in determining the genetic diffusion
 expected as a consequence of the release of Genetically Modified mosquitoes.
 
 The scientific details of the model have been submitted for publication to
-Ecological Modelling.
+Ecological Modelling:
 
 Modelling population dynamics based on experimental trials with genetically
 modified (RIDL) mosquitoes
@@ -25,3 +25,16 @@ http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/dSFMT-src-2.2.3.tar.gz
 The (modified) BSD License is applied to this software, see
 LICENSE.txt
 
+Instructions:
+This programme has only a command-line interface for linux
+1. Generate executable file with 
+   > make
+2. Programme needs a setup file IC.dat (included) and input data in script torun.sh (sample input provided).
+   run with
+   > torun.sh
+3. Input variables are described in the code
+4. The programme implements a Feller-Kendall algorithm adapted to the goals of
+   Modelling population dynamics based on experimental trials with genetically modified (RIDL) mosquitoes
+   by Mario A. Natiello and Hernán G. Solari
+   submitted to Ecological Modeling
+   date: January 26, 2020
